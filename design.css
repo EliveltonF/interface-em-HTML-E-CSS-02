@@ -119,7 +119,7 @@ a:link {
         text-align: center;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
-        margin-left: 10%;
+        margin:auto;
         width: 380px;
         height: 415px;
         background-color: white;
@@ -146,7 +146,7 @@ a:link {
     }
     #dancaDois{
         width: 380px;
-        margin-left: 10%;
+        margin:auto;
         display: flex;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
