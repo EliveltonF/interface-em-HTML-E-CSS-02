@@ -1,0 +1,230 @@
+body {
+    font-family: 'Red Hat Display';
+    background: hsl(225, 100%, 94%);
+}
+@media only screen and (min-device-width: 900px) {
+.parteBranca {
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 10%;
+    width: 450px;
+    height: 435px;
+    background-color: white;
+}
+.titulo {
+
+    font-size: 33px;
+}
+#p1 {
+    line-height: 1.5;
+    font-size: 17px;
+    color: grey;
+}
+#p2 {
+    
+
+    color: black;
+}
+#p3 {
+    color: grey;
+    font-size: 16px;
+}
+#dancaDois{
+    margin-left: 10%;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.texto {
+    padding-top: 50px;
+    
+    width: 75%;
+    
+    margin: auto;
+    
+    background: white;
+}
+.botaoUm {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    border-radius: 10px;
+    background: hsl(225, 100%, 98%);
+    padding-bottom: 25px; 
+}
+.iconMusic {
+    margin-top: 27px;
+    margin-left: 20px;
+}
+.dentroBotaoUm {
+
+    margin-top: 27px;
+    margin-right: 100px;
+}
+#change {
+    text-decoration: none;
+    margin-top: 27px;
+    margin-right: 20px;
+}
+
+.espacoBotaoUm { /*espaço entre o annual plan e o botao azul*/
+    padding-bottom: 30px;
+
+}
+.botaoDois {
+    
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.212);
+    color: white;
+    border-radius: 10px;
+    border-color: hsl(245, 75%, 52%);
+    height: 40px;
+    width: 100%;
+    background: hsl(245, 75%, 52%);
+}
+.botaoTres {
+    padding-top: 25px;
+    padding-bottom: 40px;
+    color: grey;
+ 
+}
+#ultimoBotao {
+    text-decoration: none;
+}
+
+a:link {
+    color: grey;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: grey;
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: grey;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: grey;
+ }
+}
+
+@media only screen and (max-device-width: 880px) {
+    .parteBranca {
+        text-align: center;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: 10%;
+        width: 380px;
+        height: 415px;
+        background-color: white;
+    }
+    .titulo {
+        
+        font-size: 33px;
+    }
+    #p1 {
+        line-height: 1;
+        font-size: 17px;
+        color: grey;
+        margin-bottom: 25px;
+    }
+    #p2 {
+        
+        width: 100px;
+        color: black;
+    }
+    #p3 {
+        width: 100px;
+        color: grey;
+        font-size: 16px;
+    }
+    #dancaDois{
+        width: 380px;
+        margin-left: 10%;
+        display: flex;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .texto {
+        padding-top: 40px;
+        
+        width: 75%;
+        
+        margin: auto;
+        
+        background: white;
+    }
+    .botaoUm {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        border-radius: 10px;
+        background: hsl(225, 100%, 98%);
+        padding-bottom: 25px; 
+    }
+    .iconMusic {
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+    .dentroBotaoUm {
+        width: 30px;
+        margin-top: 27px;
+        margin-right: 90px;
+    }
+    #change {
+        text-decoration: none;
+        margin-top: 27px;
+        margin-right: 20px;
+    }
+    
+    .espacoBotaoUm { /*espaço entre o annual plan e o botao azul*/
+        padding-bottom: 25px;
+    
+    }
+    .botaoDois {
+        
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.212);
+        color: white;
+        border-radius: 10px;
+        border-color: hsl(245, 75%, 52%);
+        height: 40px;
+        width: 100%;
+        background: hsl(245, 75%, 52%);
+    }
+    .botaoTres {
+        padding-top: 25px;
+        padding-bottom: 40px;
+        color: grey;
+     
+    }
+    #ultimoBotao {
+        text-decoration: none;
+    }
+    
+    a:link {
+        color: grey;
+     }
+     
+     /* link que foi visitado */
+     a:visited {
+         color: grey;
+     }
+     
+     /* mouse over */
+     a:hover {
+         color: grey;
+     }
+     
+     /* link selecionado */
+     a:active {
+         color: grey;
+     }
+    }
